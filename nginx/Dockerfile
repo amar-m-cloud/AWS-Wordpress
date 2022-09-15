@@ -1,4 +1,4 @@
-FROM nginx:stable-perl
+FROM nginx:1.15.12
 
 WORKDIR '/var/www/html'
 #Install php and some resources
